@@ -1,0 +1,37 @@
+class StrHand
+{
+    public static void main(String[] args) 
+    {
+        String str1 = "Master Manifestor";
+        String str2 = "";
+        
+        System.out.println("Length of String 1 = "+ str1.length());
+        System.out.println("Length of String 2= "+ str2.length());
+         
+        System.out.println("Is String1 empty = "+ str1.isEmpty());
+        System.out.println("Is String2 empty = "+ str2.isEmpty());
+        
+        System.out.println("Checking equality with case : "+ str1.equals("MASTER MANIFESTOR"));
+        System.out.println("Checking equality without case : "+ str1.equalsIgnoreCase("master manifestor"));
+        
+        System.out.println("Specify Position charAt() : " + str1.charAt(4));
+        System.out.println("Contains character ? "+ str1.contains("Manifest"));
+        
+        System.out.println("First Occurence : "+ str1.indexOf("t"));
+        System.out.println("Last Occurence : "+ str1.lastIndexOf("t"));
+
+        System.out.println("Begins with Q ? "+ str1.startsWith("Q"));
+        System.out.println("Ends with r ? "+ str1.endsWith("r"));
+        
+        System.out.println("Uppercase "+ str1.toUpperCase());
+        System.out.println("Lowercase "+ str1.toLowerCase());
+        
+        System.out.println("Replacing  substring "+ str2.replace("","ABCD"));
+        
+        System.out.println("Concatenation "+ str1.concat(" PRIYA"));
+        System.out.println("str1  currently : "+ str1);
+        
+        System.out.println("Substring 0 to 17 : "+ str1.substring(0,17));
+        System.out.println("Substring 0 to 7 : "+ str1.substring(0,7));
+    }
+}
