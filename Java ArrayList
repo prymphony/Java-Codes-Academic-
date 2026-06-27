@@ -1,0 +1,50 @@
+import java.util.ArrayList;
+class Main 
+{
+    public static void main(String[] args) 
+    {
+        ArrayList<String> s1 = new ArrayList<>();
+        s1.add("Element1");
+        s1.add("Element2");
+        s1.add("Element3");
+        s1.add("Element4");
+        s1.add("Element5");
+        System.out.println(s1);
+        s1.add("Element6");
+        System.out.println(s1);
+        s1.set(3,"Changed Element");
+        System.out.println(s1);
+        System.out.println(s1.get(4));
+        
+        int[]  ar1= {123, 143, 2231, 567, 777, 898};
+        System.out.println(ar1[1]);
+        
+        ArrayList<String> s2 = new ArrayList<>();
+        s2.add("Carrot");
+        s2.add("Capsicum");
+        s2.add("Tomato");
+        s2.add("Onion");
+        System.out.println(s2.get(3));
+        System.out.println(s2);
+        
+        ArrayList<Integer> s3 = new ArrayList<>();
+        s3.add(23);
+        s3.add(24);
+        s3.add(25);
+        s3.add(26);
+        s3.add(27);
+        System.out.println(s3);
+        
+        s3.set(2, 36);
+        System.out.println(s3);
+        
+        s3.remove(0);
+        System.out.println(s3);
+         
+        s3.clear();
+        System.out.println(s3);
+        
+    }
+}
+
+
