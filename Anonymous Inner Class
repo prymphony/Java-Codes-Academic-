@@ -1,0 +1,18 @@
+interface I
+{
+public void show();
+}
+
+class Program03
+{
+public static void main(String[] args)
+{
+I obj = new I(){
+public void show()
+{
+System.out.println("Anonymous Inner Class.");
+}
+};
+obj.show();
+}
+}
