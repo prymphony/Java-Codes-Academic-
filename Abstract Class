@@ -1,0 +1,26 @@
+abstract class A
+{
+abstract public void informal();
+public void formal()
+{
+System.out.println("Good Afternoon.");
+}
+}
+
+class B extends A
+{
+public void informal()
+{
+System.out.println("Namaste !");
+}
+}
+
+class Program01
+{
+public static void main(String[] args)
+{
+B obj1 = new B();
+obj1.formal();
+obj1.informal();
+}
+}
