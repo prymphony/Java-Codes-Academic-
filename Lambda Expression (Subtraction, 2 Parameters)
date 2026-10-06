@@ -1,0 +1,14 @@
+interface Cherry
+{
+public int sub(int x, int y);
+}
+
+class Program05
+{
+public static void main(String[] args)
+{
+Cherry obj = (x, y) -> (x-y);
+System.out.println(obj.sub(100, 25));
+System.out.println(obj.sub(10, 25));
+}
+}
